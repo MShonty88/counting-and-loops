@@ -1,4 +1,6 @@
-print("99 bottles of beer on the wall")
-print("99 bottles of beer")
-print("Take one down, pass it around")
-print("98 bottles of beer on the wall")
+
+for i in range (100, 0, -1):
+        print(i, "bottles of beer on the wall")
+        print(i, "bottles of beer")
+        print("Take one down, pass it around")
+        print(i, "bottles of beer on the wall")
